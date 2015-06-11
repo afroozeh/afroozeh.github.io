@@ -1,0 +1,34 @@
+.markdown-body {
+    min-width: 200px;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+#navlist li {
+	display: inline;
+	list-style-type: none;
+	padding-right: 20px;
+}
+
+#navcontainer ul {
+	padding: 0px;
+	margin: 0px;
+}
+
+.abstract {
+	padding-left: 30px; 
+	padding-right: 120px; 
+	text-align: justify; 
+}
+
+.bibtex {
+	padding-left: 30px;
+	padding-right: 120px;
+	text-align: justify;
+}
+
+.bibtex pre {
+	font-family: "menlo", "monospace";
+	font-size: 0.8em;
+}
