@@ -16,13 +16,16 @@
 
 <div id="navcontainer">
 <ul id="navlist">
-<li><a href="{{ site.baseurl }}/index.html">Introduction</a></li>
+<li><a href="{{ site.baseurl }}/index.html">Home</a></li>
 <li><a href="{{ site.baseurl }}/publications.html">Publications</a></li>
 <li><a href="{{ site.baseurl }}/projects.html">Projects</a></li>
+<li><a href="{{ site.baseurl }}/presentations.html">Presentations</a></li>
+<li><a href="{{ site.baseurl }}/contact.html">Contact</a></li>
 </ul>
 </div>
 
-#### Publications
+
+## Publications
 
 ##### 2015
 - Ali Afroozeh and Anastasia Izmaylova. **Faster, Practical GLL Parsing**. In Compiler Construction, 24th International Conference, CC 2015, 89-108.
