@@ -25,3 +25,7 @@
 </div>
 
 ## Presentations
+
+- Meerkat Parsers: A general parser combinator library for real programming languages, 
+<a href="http://event.scaladays.org/scaladays-amsterdam-2015#!#schedulePopupExtras-6892">ScalaDays 2015</a>, Amsterdam, June 9th (with Anastasia Izmaylova).
+<a href="https://speakerdeck.com/anastassija/meerkat-parsers-a-general-parser-combinator-library-for-real-programming-languages" target="_blank">Slides</a>
