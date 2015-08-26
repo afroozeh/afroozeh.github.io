@@ -28,6 +28,49 @@
 ## Publications
 
 ##### 2015
+
+- Ali Afroozeh and Anastasia Izmaylova. **One Parser to Rule Them All**. 
+In Proceedings of the 2015 ACM International Symposium on New Ideas, New Paradigms, and Reflections on Programming \& Software, Onward!'15, ACM, pp 193-212.
+
+<div>
+<ul id="navlist">
+<li><a href="#onward15Abstract" data-toggle="collapse" data-target="#cc15Abstract">Abstract</a></li>
+<li><a href="#onward15Bibtex" data-toggle="collapse" data-target="#cc15Bibtex">BibTeX</a></li>
+<li><a href="http://dx.doi.org/10.1145/2814228.2814242">DOI</a></li>
+<li><a href="https://cdn.rawgit.com/iguana-parser/papers/master/onward15.pdf">PDF</a></li>
+<li><a href="" target="_blank">Slides</a></li>
+</ul>
+</div>
+
+<div id="onward15Abstract" class="collapse abstract">
+
+Despite the long history of research in parsing, constructing parsers for real programming languages remains a difficult and painful task. In the last decades, different parser generators emerged to allow the construction of parsers from a BNF-like specification. However, still today, many parsers are handwritten, or are only partly generated, and include various hacks to deal with different peculiarities in programming languages. The main problem is that current declarative syntax definition techniques are based on pure context-free grammars, while many constructs found in programming languages require context information.<br/>
+
+In this paper we propose a parsing framework that embraces context information in its core. Our framework is based on data-dependent grammars, which extend context-free grammars with arbitrary computation, variable binding and constraints. We present an implementation of our framework on top of the Generalized LL (GLL) parsing algorithm, and show how common idioms in syntax of programming languages such as (1) lexical disambiguation filters, (2) operator precedence, (3) indentation-sensitive rules, and (4) conditional preprocessor directives can be mapped to data-dependent grammars. We demonstrate the initial experience with our framework, by parsing more than 20000 Java, C#, Haskell, and OCaml source files.
+</div>
+
+<div id="onward15Bibtex" class="collapse bibtex">
+<pre>
+@inproceedings{
+ author={Afroozeh, Ali and Izmaylova, Anastasia},
+ title = {One Parser to Rule Them All},
+ booktitle = {Proceedings of the 2015 ACM International Symposium on New Ideas, New Paradigms, and Reflections on Programming & Software},
+ series = {Onward! 2015},
+ year = {2015},
+ location = {Pittsburgh, PA, USA},
+ pages = {193--212},
+ numpages = {20},
+ url = {http://dx.doi.org/10.1145/2814228.2814242},
+ doi = {10.1145/2814228.2814242},
+ acmid = {2814242},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+ keywords = {Parsing, data-dependent grammars, GLL, disambiguation, operator precedence, offside rule, preprocessor directives,  scannerless parsing, context-aware scanning},
+} 
+
+</pre>
+</div>
+
 - Ali Afroozeh and Anastasia Izmaylova. **Faster, Practical GLL Parsing**. 
 In Compiler Construction, 24th International Conference, CC 2015, LNCS 9031, Springer, pp 89-108.
 
