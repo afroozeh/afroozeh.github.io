@@ -34,11 +34,11 @@ In Proceedings of the 2015 ACM International Symposium on New Ideas, New Paradig
 
 <div>
 <ul id="navlist">
-<li><a href="#onward15Abstract" data-toggle="collapse" data-target="#cc15Abstract">Abstract</a></li>
-<li><a href="#onward15Bibtex" data-toggle="collapse" data-target="#cc15Bibtex">BibTeX</a></li>
+<li><a href="#onward15Abstract" data-toggle="collapse" data-target="#onward15Abstract">Abstract</a></li>
+<li><a href="#onward15Bibtex" data-toggle="collapse" data-target="#onward15Bibtex">BibTeX</a></li>
 <li><a href="http://dx.doi.org/10.1145/2814228.2814242">DOI</a></li>
 <li><a href="https://cdn.rawgit.com/iguana-parser/papers/master/onward15.pdf">PDF</a></li>
-<li><a href="" target="_blank">Slides</a></li>
+<li><a href="" target="">Slides</a></li>
 </ul>
 </div>
 
