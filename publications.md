@@ -176,9 +176,9 @@ manual against the highly ambiguous reference grammar and validate the output of
 </div>
 
 
-##### Theses
+## Theses
 
-- Ali Afroozeh. GText: A Language Workbench based on GLL and Term Rewriting.
+- Ali Afroozeh. **GText: A Language Workbench based on GLL and Term Rewriting**.
 Master's Thesis, Eindhoven University of Technology, 2012.
 
 <div>
