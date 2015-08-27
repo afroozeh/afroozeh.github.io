@@ -27,10 +27,8 @@
 
 ## Publications
 
-##### 2015
-
 - Ali Afroozeh and Anastasia Izmaylova. **One Parser to Rule Them All**. 
-In Proceedings of the 2015 ACM International Symposium on New Ideas, New Paradigms, and Reflections on Programming & Software, Onward!'15, ACM, pp 193-212.
+In Proceedings of the 2015 ACM International Symposium on New Ideas, New Paradigms, and Reflections on Programming & Software, Onward!'15, pages 193-212. ACM, 2015.
 
 <div>
 <ul id="navlist">
@@ -72,7 +70,7 @@ In this paper we propose a parsing framework that embraces context information i
 </div>
 
 - Ali Afroozeh and Anastasia Izmaylova. **Faster, Practical GLL Parsing**. 
-In Compiler Construction, 24th International Conference, CC 2015, LNCS 9031, Springer, pp 89-108.
+In Compiler Construction, 24th International Conference, CC 2015, LNCS 9031, pages 89-108. Springer, 2015.
 
 <div>
 <ul id="navlist">
@@ -129,9 +127,8 @@ respectively.
 </pre>
 </div>
 
-##### 2013
 - Ali Afroozeh, Mark van den Brand, Adrian Johnstone, Elizabeth Scott and Jurgen Vinju. **Safe Specification of Operator Precedence Rules**. 
-In Software Language Engineering, 6th International Conference, SLE 2013, LNCS 8225, Springer, pp 137-156.
+In Software Language Engineering, 6th International Conference, SLE 2013, LNCS 8225, pages 137-156. Springer, 2015.
 
 <div>
 <ul id="navlist">
@@ -179,4 +176,41 @@ manual against the highly ambiguous reference grammar and validate the output of
 </div>
 
 
-##### 2012
+##### Theses
+
+- Ali Afroozeh. GText: A Language Workbench based on GLL and Term Rewriting.
+Master's Thesis, Eindhoven University of Technology, 2012.
+
+<div>
+<ul id="navlist">
+<li><a href="#mscThesisAbstract" data-toggle="collapse" data-target="#cc15Abstract">Abstract</a></li>
+<li><a href="http://alexandria.tue.nl/extra1/afstversl/wsk-i/afroozeh2012.pdf">PDF</a></li>
+<li><a href="https://speakerdeck.com/afroozeh/gtext-a-language-workbench-based-on-gll-and-term-rewriting" target="_blank">Slides</a></li>
+</ul>
+</div>
+
+<div id="mscThesisAbstract" class="collapse abstract">
+
+One of the main difficulties in developing domain-specific languages is the use of
+deterministic parsing technologies in language workbenches. These deterministic
+parsers do not naturally support modularity, and impose restrictions on
+defining the grammar of a language. For example, LL(k) parsers cannot deal with
+left recursion or ambiguities, which have to be removed by rewriting the
+grammar. These modifications usually lead to a grammar definition which is not
+readable and may cause maintenance problems. More importantly, the parse trees
+from a modified grammar may be significantly different from the ones of the
+original, ambiguous grammar. This may cause problems in processing parse trees,
+for example, for mapping to EMF models.
+
+In this thesis, we present a new language workbench based on the GLL parsing
+algorithm. GLL is able to parse the full class of context-free grammars without
+any limitation and thus inherently supports modularity. Being a generalized
+parser, GLL produces a parse forest containing all the ambiguities. Our
+disambiguation method is based on pattern matching and rewriting within the
+resulting parse forest. One of the motivations for our disambiguation mechanism
+is solving hard parsing problems such as language embeddings and extensions. In
+addition, we present an error reporting mechanism for GLL-based parsers, an
+Eclipse plugin for developing new languages, and facilities for the mapping of ambiguous, 
+complex concrete syntax to EMF models.
+</div>
+
