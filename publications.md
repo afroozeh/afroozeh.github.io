@@ -128,7 +128,7 @@ respectively.
 </div>
 
 - Ali Afroozeh, Mark van den Brand, Adrian Johnstone, Elizabeth Scott and Jurgen Vinju. **Safe Specification of Operator Precedence Rules**. 
-In Software Language Engineering, 6th International Conference, SLE 2013, LNCS 8225, pages 137-156. Springer, 2015.
+In Software Language Engineering, 6th International Conference, SLE 2013, LNCS 8225, pages 137-156. Springer, 2013.
 
 <div>
 <ul id="navlist">
@@ -183,7 +183,7 @@ Master's Thesis, Eindhoven University of Technology, 2012.
 
 <div>
 <ul id="navlist">
-<li><a href="#mscThesisAbstract" data-toggle="collapse" data-target="#cc15Abstract">Abstract</a></li>
+<li><a href="#mscThesisAbstract" data-toggle="collapse" data-target="#mscThesisAbstract">Abstract</a></li>
 <li><a href="http://alexandria.tue.nl/extra1/afstversl/wsk-i/afroozeh2012.pdf">PDF</a></li>
 <li><a href="https://speakerdeck.com/afroozeh/gtext-a-language-workbench-based-on-gll-and-term-rewriting" target="_blank">Slides</a></li>
 </ul>
