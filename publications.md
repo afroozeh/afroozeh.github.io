@@ -28,7 +28,7 @@
 ## Publications
 
 - Ali Afroozeh and Anastasia Izmaylova. **One Parser to Rule Them All**. 
-In Proceedings of the 2015 ACM International Symposium on New Ideas, New Paradigms, and Reflections on Programming & Software, Onward!'15, pages 193-212. ACM, 2015.
+In Proceedings of the 2015 ACM International Symposium on New Ideas, New Paradigms, and Reflections on Programming & Software, Onward!'15, pages 151-170. ACM, 2015.
 
 <div>
 <ul id="navlist">
@@ -56,7 +56,7 @@ In this paper we propose a parsing framework that embraces context information i
  series = {Onward! 2015},
  year = {2015},
  location = {Pittsburgh, PA, USA},
- pages = {193--212},
+ pages = {151--170},
  numpages = {20},
  url = {http://dx.doi.org/10.1145/2814228.2814242},
  doi = {10.1145/2814228.2814242},
