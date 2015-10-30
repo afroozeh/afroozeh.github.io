@@ -77,7 +77,7 @@ In Compiler Construction, 24th International Conference, CC 2015, LNCS 9031, pag
 <li><a href="#cc15Abstract" data-toggle="collapse" data-target="#cc15Abstract">Abstract</a></li>
 <li><a href="#cc15Bibtex" data-toggle="collapse" data-target="#cc15Bibtex">BibTeX</a></li>
 <li><a href="http://dx.doi.org/10.1007/978-3-662-46663-6_5">DOI</a></li>
-<li><a href="{{ site.url }}/papers/cc15.pdf">PDF</a></li>
+<li><a href="https://cdn.rawgit.com/iguana-parser/papers/master/cc15.pdf">PDF</a></li>
 <li><a href="https://speakerdeck.com/afroozeh/faster-practical-gll-parsing" target="_blank">Slides</a></li>
 </ul>
 </div>
