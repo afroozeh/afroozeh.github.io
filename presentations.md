@@ -1,31 +1,35 @@
 ---
+layout: base
 ---
 
-<html>
+<h2 class="page-title">Talks</h2>
 
-<head>
-	<title>Ali Afroozeh</title>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"/></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
-	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
-	<link rel="stylesheet" href="style.css"/>
-	<link rel="stylesheet" href="page.css"/>
-</head>
+<ul>
+	<li>A Practical Data-Dependent Parsing Framework. At PEPM'16 (paper presentation),
+	19 January 2016, St. Petersburg, FL, USA.
+	</li>
+	<li> Meerkat Parsers: A general parser combinator library for real programming languages.
+		At ScalaDays 2015, Amsterdam, June 9th 2015 (with Anastasia Izmaylova).
+		<ul class="talks-links">
+			<li><a href="https://speakerdeck.com/anastassija/meerkat-parsers-a-general-parser-combinator-library-for-real-programming-languages" target="_blank">Slides</a></li>
+			<li><a href="https://www.parleys.com/tutorial/meerkat-parsers-general-parser-combinator-library-real-programming-languages" target="_blank">Video</a></li>
+		</ul>
+	</li>
+	<li>Faster, Practical GLL Parsing. At CC'15 (paper presentation), 18 April 2015,
+	London, UK.
+	<ul class="talks-links">
+		<li><a href="https://speakerdeck.com/afroozeh/faster-practical-gll-parsing" target="_blank">Slides</a></li>
+	</ul>
+	</li>
 
-<body class="markdown-body"  markdown='1'>
+	<li>Safe Specification of Operator Precedence Rules. At SLE'13 (paper presentation),
+	26 October 2013, Indianapolis, IN, USA.
+	<ul class="talks-links">
+		<li><a href="https://speakerdeck.com/afroozeh/safe-specification-of-operator-precedence-rules" target="_blank">Slides</a></li>
+	</ul>
+	</li>
 
-<div id="navcontainer">
-<ul id="navlist">
-<li><a href="{{ site.baseurl }}/index.html">Home</a></li>
-<li><a href="{{ site.baseurl }}/publications.html">Publications</a></li>
-<li><a href="{{ site.baseurl }}/projects.html">Projects</a></li>
-<li><a href="{{ site.baseurl }}/presentations.html">Presentations</a></li>
-<li><a href="{{ site.baseurl }}/contact.html">Contact</a></li>
+	<li>Iguana: an Object-Oriented Lazy Scannerless Parser. At Parsing@SLE'13. 
+		26 October 2013, Indianapolis, IN, USA.
+	</li>
 </ul>
-</div>
-
-## Presentations
-
-- Meerkat Parsers: A general parser combinator library for real programming languages, 
-<a href="http://event.scaladays.org/scaladays-amsterdam-2015#!#schedulePopupExtras-6892">ScalaDays 2015</a>, Amsterdam, June 9th (with Anastasia Izmaylova).
-<a href="https://speakerdeck.com/anastassija/meerkat-parsers-a-general-parser-combinator-library-for-real-programming-languages" target="_blank">Slides</a>

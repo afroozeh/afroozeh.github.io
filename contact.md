@@ -1,33 +1,40 @@
 ---
+layout: base
 ---
 
-<html>
+<script type="text/javascript">
+	
+$(function() {
+ $('#email').each(function() {
+   this.href = this.href.replace('(at)', '@').replace(/\(dot\)/g, '.')
+ })
+})
 
-<head>
-	<title>Ali Afroozeh</title>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"/></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
-	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
-	<link rel="stylesheet" href="style.css"/>
-	<link rel="stylesheet" href="page.css"/>
-</head>
+</script>
 
-<body class="markdown-body"  markdown='1'>
+<h2 class="page-title">Contact</h2>
 
-<div id="navcontainer">
-<ul id="navlist">
-<li><a href="{{ site.baseurl }}/index.html">Home</a></li>
-<li><a href="{{ site.baseurl }}/publications.html">Publications</a></li>
-<li><a href="{{ site.baseurl }}/projects.html">Projects</a></li>
-<li><a href="{{ site.baseurl }}/presentations.html">Presentations</a></li>
-<li><a href="{{ site.baseurl }}/contact.html">Contact</a></li>
-</ul>
+<div style="width: 100%;">
+<div style="float: left; width: 55%;">
+
+<b>Address:</b><br>
+Science Park 123<br>
+1098 XG Amsterdam<br>
+The Netherlands<br><br><br>
+
+<a id="email" href="mailto:afroozeh(at)gmail(dot)com"><i class="fa fa-envelope-o fa-3x">&nbsp;&nbsp;</i></a>
+<a href="https://twitter.com/afruze"><i class="fa fa-twitter fa-3x">&nbsp;&nbsp;</i></a>
+<a href="https://github.com/afroozeh"><i class="fa fa-github fa-3x">&nbsp;&nbsp;</i></a>
+<a href="https://www.linkedin.com/in/afroozeh"><i class="fa fa-linkedin fa-3x">&nbsp;&nbsp;</i></a>
+
 </div>
+<div style="float: right; width: 45%; padding-right: 50px;">
+<a class="twitter-timeline" 
+   width="300" 
+   height="500" 
+   data-chrome="nofooter noborders"
+   href="https://twitter.com/afruze" data-widget-id="692929081650864128">Tweets by @afruze</a> 
 
-## Contact
-
-Science Park 123
-1098 XG Amsterdam
-Netherlands
-
-+31(0)20 592 4249
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+</div>
+</div>

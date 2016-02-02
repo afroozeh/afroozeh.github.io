@@ -1,27 +1,22 @@
 ---
+layout: base
 ---
 
-<html>
+<h2 class="page-title">Projects</h2>
 
-<head>
-	<title>Ali Afroozeh</title>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"/></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
-	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
-	<link rel="stylesheet" href="style.css"/>
-	<link rel="stylesheet" href="page.css"/>
-</head>
+- **Iguana parsing framework:** <a href="http://iguana-parser.github.io">Iguana</a> 
+Iguana is a parsing framework based on data-dependent grammars. Data-dependent 
+grammars extend context free grammars with arbitrary computation, variable 
+binding, and constraints. These powerful features enable construction of parsers 
+for context-sensitive languages. We also use data-dependent grammars as a layer 
+to implement different disambiguation constructs such as operator precedence.
 
-<body class="markdown-body"  markdown='1'>
-
-<div id="navcontainer">
-<ul id="navlist">
-<li><a href="{{ site.baseurl }}/index.html">Home</a></li>
-<li><a href="{{ site.baseurl }}/publications.html">Publications</a></li>
-<li><a href="{{ site.baseurl }}/projects.html">Projects</a></li>
-<li><a href="{{ site.baseurl }}/presentations.html">Presentations</a></li>
-<li><a href="{{ site.baseurl }}/contact.html">Contact</a></li>
-</ul>
-</div>
-
-## Projects
+- **Meerkat Parser Combinators:** <a href="http://meerkat-parser.github.io">Meerkat</a> 
+is a general parser combinator library written in Scala, that combines the 
+flexibility of traditional, monadic parser combinators and the expressivity 
+and worst-case performance guarantees of state-of-the-art general parsing 
+algorithms, such as GLL and GLR. Using the Meerkat library, it is possible 
+to directly encode any context-free grammar, including the ones with direct and 
+indirect left recursion, in Scala. Meerkat parsers support ambiguity, by producing 
+a parse forest in cubic time and space, and can behave nearly linear on grammars 
+of real programming languages.

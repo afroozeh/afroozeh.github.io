@@ -1,0 +1,157 @@
+@inproceedings{CC2016,
+ author = {Ali Afroozeh and Anastasia Izmaylova},
+ title = {{Iguana: A Practical Data-Dependent Parsing Framework}},
+ booktitle={Compiler Construction - 25th International Conference},
+ series = {CC 2016},
+ year = {2016},
+ isbn = {},
+ location = {Barcelona, Spain},
+ pages = {},
+ numpages = {},
+ url = {},
+ doi = {},
+ acmid = {},
+ publisher = {ACM},
+ keywords = {},
+ abstract = {},
+ preprint={},
+ note={to appear}
+}
+
+@inproceedings{PEPM2016-2,
+ author = {Anastasia Izmaylova and Ali Afroozeh and Tijs van der Storm},
+ title = {{Practical, General Parser Combinators}},
+ booktitle = {Proceedings of the 2016 ACM SIGPLAN Workshop on Partial Evaluation and Program Manipulation},
+ series = {PEPM 2016},
+ year = {2016},
+ isbn = {978-1-4503-4097-7},
+ location = {St. Petersburg, FL, USA},
+ pages = {1-12},
+ numpages = {12},
+ url = {http://doi.acm.org/10.1145/2847538.2847539},
+ doi = {10.1145/2847538.2847539},
+ publisher = {ACM},
+ keywords = {Parser combinators, continuation-passing style, general parsing, higher-order functions, left recursion, memoization},
+ abstract = {Parser combinators are a popular approach to parsing where context-free grammars are represented as executable code. However, conventional parser combinators do not support left recursion, and can have worst-case exponential runtime. These limitations hinder the expressivity and performance predictability of parser combinators when constructing parsers for programming languages. 
+ In this paper we present general parser combinators that support all context-free grammars and construct a parse forest in cubic time and space in the worst case, while behaving nearly linearly on grammars of real programming languages. Our general parser combinators are based on earlier work on memoized Continuation-Passing Style (CPS) recognizers. First, we extend this work to achieve recognition in cubic time. Second, we extend the resulting cubic CPS recognizers to parsers that construct a binarized Shared Packed Parse Forest (SPPF). 
+ Our general parser combinators bring the best of both worlds: the flexibility and extensibility of conventional parser combinators and the expressivity and performance guarantees of general parsing algorithms. We used the approach presented in this paper as the basis for Meerkat, a general parser combinator library for Scala.},
+ preprint={https://cdn.rawgit.com/meerkat-parser/papers/master/pepm16.pdf}
+} 
+
+@inproceedings{PEPM2016-1,
+ author = {Ali Afroozeh and Anastasia Izmaylova},
+ title = {{Operator Precedence for Data-dependent Grammars}},
+ booktitle = {Proceedings of the 2016 ACM SIGPLAN Workshop on Partial Evaluation and Program Manipulation},
+ series = {PEPM 2016},
+ year = {2016},
+ isbn = {978-1-4503-4097-7},
+ location = {St. Petersburg, FL, USA},
+ pages = {13-24},
+ numpages = {12},
+ url = {http://doi.acm.org/10.1145/2847538.2847540},
+ doi = {10.1145/2847538.2847540},
+ acmid = {2847540},
+ publisher = {ACM},
+ keywords = {Parsing, data-dependent grammars, declarative syntax definition, disambiguation, operator precedence},
+ abstract = {Constructing parsers based on declarative specification of operator precedence is a very old research topic, and there are various existing approaches. However, these approaches are either tied to a particular parsing technique, or cannot deal with all corner cases found in programming languages. 
+ In this paper we present an implementation of declarative specification of operator precedence for general parsing that (1) is independent of the underlying parsing algorithm, (2) does not require any grammar transformation that increases the size of the grammar, (3) preserves the shape of parse trees of the original, natural grammar, and (4) can deal with intricate cases of operator precedence found in functional programming languages such as OCaml. 
+ Our new approach to operator precedence is formulated using data-dependent grammars, which extend context-free grammars with arbitrary computation, variable binding and constraints. We implemented our approach using Iguana, a data-dependent parsing framework, and evaluated it by parsing Java and OCaml source files. The results show that our approach is practical for parsing programming languages with complicated operator precedence rules.},
+ preprint={https://cdn.rawgit.com/iguana-parser/papers/master/pepm16.pdf}
+ }
+
+@inproceedings{Onward15,
+author={Ali Afroozeh and Anastasia Izmaylova},
+title = {{One Parser to Rule Them All}},
+booktitle = {Proceedings of the 2015 ACM International Symposium on New Ideas, New Paradigms, and Reflections on Programming \& Software},
+series = {Onward! 2015},
+year = {2015},
+location = {Pittsburgh, PA, USA},
+pages = {151-170},
+numpages = {20},
+url = {http://dx.doi.org/10.1145/2814228.2814242},
+doi = {10.1145/2814228.2814242},
+acmid = {2814242},
+publisher = {ACM},
+keywords = {Parsing, data-dependent grammars, GLL, disambiguation, operator precedence, offside rule, preprocessor directives, scannerless parsing, context-aware scanning},
+abstract = {Despite the long history of research in parsing, constructing parsers for real programming languages remains a difficult and painful task. In the last decades, different parser generators emerged to allow the construction of parsers from a BNF-like specification. However, still today, many parsers are handwritten, or are only partly generated, and include various hacks to deal with different peculiarities in programming languages. The main problem is that current declarative syntax definition techniques are based on pure context-free grammars, while many constructs found in programming languages require context information.
+In this paper we propose a parsing framework that embraces context information in its core. Our framework is based on data-dependent grammars, which extend context-free grammars with arbitrary computation, variable binding and constraints. We present an implementation of our framework on top of the Generalized LL (GLL) parsing algorithm, and show how common idioms in syntax of programming languages such as (1) lexical disambiguation filters, (2) operator precedence, (3) indentation-sensitive rules, and (4) conditional preprocessor directives can be mapped to data-dependent grammars. We demonstrate the initial experience with our framework, by parsing more than 20000 Java, C#, Haskell, and OCaml source files.},
+preprint = {https://cdn.rawgit.com/iguana-parser/papers/master/onward15.pdf},
+slides = {https://speakerdeck.com/anastassija/one-parser-to-rule-them-all}
+}
+
+@inproceedings{CC15,
+author={Ali Afroozeh and Anastasia Izmaylova},
+title={{Faster, Practical GLL Parsing}},
+year={2015},
+isbn={978-3-662-46662-9},
+booktitle={Compiler Construction - 24th International Conference},
+series={CC 2015},
+doi={10.1007/978-3-662-46663-6_5},
+url={http://dx.doi.org/10.1007/978-3-662-46663-6_5},
+publisher={Springer},
+pages={89-108},
+location={London, UK},
+language={English},
+abstract={Generalized LL (GLL) parsing is an extension of recursive-descent (RD) parsing that supports all context-free grammars in cubic time and space. GLL parsers have the direct relationship with the grammar that RD parsers have, and therefore, compared to GLR, are easier to understand, debug, and extend. This makes GLL parsing attractive for parsing programming languages.
+In this paper we propose a more efficient Graph-Structured Stack (GSS) for GLL parsing that leads to significant performance improvement. We also discuss a number of optimizations that further improve the performance of GLL. Finally, for practical scannerless parsing of programming languages, we show how common lexical disambiguation filters can be integrated in GLL parsing.
+Our new formulation of GLL parsing is implemented as part of the Iguana parsing framework. We evaluate the effectiveness of our approach using a highly-ambiguous grammar and grammars of real programming languages. Our results, compared to the original GLL, show a speedup factor of 10 on the highly-ambiguous grammar, and a speedup factor of 1.5, 1.7, and 5.2 on the grammars of Java, C#, and OCaml, respectively.},
+preprint = {https://cdn.rawgit.com/iguana-parser/papers/master/cc15.pdf},
+slides = {https://speakerdeck.com/afroozeh/faster-practical-gll-parsing}
+}
+
+@inproceedings{SLE13,
+author={Ali Afroozeh and 
+          Mark van den Brand and 
+          Adrian Johnstone and 
+          Elizabeth Scott and 
+          Jurgen Vinju},
+title={{Safe Specification of Operator Precedence Rules}},          
+year={2013},
+isbn={978-3-319-02653-4},
+booktitle = {Software Language Engineering - 6th International Conference, SLE 2013},
+volume={8225},
+series={Lecture Notes in Computer Science},
+editor={Erwig, Martin and Paige, RichardF. and Van Wyk, Eric},
+doi={10.1007/978-3-319-02654-1_8},
+url={http://dx.doi.org/10.1007/978-3-319-02654-1_8},
+publisher={Springer},
+pages={137-156},
+location={Indianapolis, IN, USA, October 26-28},
+year={2013},
+language={English},
+abstract={In this paper we present an approach to specifying operator precedence 
+based on declarative disambiguation constructs and an implementation mechanism 
+based on grammar rewriting. We identify a problem with existing generalized 
+context-free parsing and disambiguation technology: generating a correct parser 
+for a language such as OCaml using declarative precedence specification is not 
+possible without resorting to some manual grammar transformation. 
+Our approach provides a fully declarative solution to operator precedence specification
+for context-free grammars, is independent of any parsing technology, and is safe 
+in that it guarantees that the language of the resulting grammar will be the same as the
+language of the specification grammar. 
+We evaluate our new approach by specifying the precedence rules from the OCaml reference 
+manual against the highly ambiguous reference grammar and validate the output of our generated parser.},
+preprint={http://afroozeh.github.io/papers/sle13.pdf},
+slides={https://speakerdeck.com/afroozeh/safe-specification-of-operator-precedence-rules}
+}
+
+@inproceedings{SLE12,
+author    = {Ali Afroozeh and
+          Jean-Christophe Bach and
+          Mark van den Brand and
+          Adrian Johnstone and
+          Maarten Manders and
+          Pierre-Etienne Moreau and
+          Elizabeth Scott},
+title     = {{Island Grammar-Based Parsing Using GLL and Tom}},
+booktitle = {Software Language Engineering - 5th International Conference},
+series    = {SLE 2012},
+pages     = {224-243},
+location  = {Dresden, Germany},
+year      = {2012},
+publisher = {Springer},
+url       = {http://dx.doi.org/10.1007/978-3-642-36089-3_13},
+doi       = {10.1007/978-3-642-36089-3_13},
+abstract  = {Extending a language by embedding within it another language presents significant parsing challenges, especially if the embedding is recursive. The composite grammar is likely to be nondeterministic as a result of tokens that are valid in both the host and the embedded language. In this paper we examine the challenges of embedding the Tom language into a variety of general-purpose high level languages. Tom provides syntax and semantics for advanced pattern matching and tree rewriting facilities. Embedded Tom constructs are translated into the host language by a preprocessor, the output of which is a composite pro- gram written purely in the host language. Tom implementations exist for Java, C, C#, Python and Caml. The current parser is complex and difficult to maintain. In this paper, we describe how Tom can be parsed using island grammars implemented with the Generalised LL (GLL) parsing algorithm. The grammar is, as might be expected, ambiguous. Extracting the correct derivation relies on our disambiguation strategy which is based on pattern matching within the parse forest. We describe different classes of ambiguity and propose patterns for resolving them.},
+preprint={http://afroozeh.github.io/papers/sle12.pdf}
+}

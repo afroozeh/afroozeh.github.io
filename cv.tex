@@ -1,0 +1,134 @@
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{hyperref}
+\usepackage{geometry}
+
+
+\usepackage[T1]{fontenc}
+\usepackage[sc]{mathpazo}
+
+\usepackage{fontawesome}
+
+\def\name{Ali Afroozeh}
+
+
+\geometry{
+  body={6.5in, 8.5in},
+  left=1.0in,
+  top=1.25in
+}
+
+\pagestyle{myheadings}
+\markright{\name}
+\thispagestyle{empty}
+
+\usepackage{sectsty}
+\sectionfont{\rmfamily\mdseries\Large}
+\subsectionfont{\rmfamily\mdseries\itshape\large}
+
+\setlength\parindent{0em}
+
+\renewenvironment{itemize}{
+  \begin{list}{}{
+    \setlength{\leftmargin}{1.5em}
+  }
+}{
+  \end{list}
+}
+
+\begin{document}
+
+{\huge \name}
+
+
+\vspace{0.25in}
+
+\faGlobe~\href{http://afroozeh.github.io/}{http://afroozeh.github.io}
+\vspace{0.02in}
+
+\faEnvelopeO~\href{mailto:afroozeh@gmail.com}{afroozeh@gmail.com}
+\vspace{0.02in}
+
+\faTwitter~\href{https://twitter.com/afruze}{afruze}
+\vspace{0.02in}
+
+\faGithub~\href{https://github.com/afroozeh}{afroozeh}
+
+\section*{Education}
+
+\begin{itemize}
+  \item \textbf{MSc} in Computer Science and Engineering, Eindhoven University of University,
+  Eindhoven, The Netherlands, 2012. Graduated with distinction (cum laude).
+
+  \textit{Thesis}: GText: A Language Workbench based on GLL and Term Rewriting.
+
+  \item \textbf{BSc} in Software Engineering, Amirkabir University of Technology, Tehran, Iran, 2009.
+\end{itemize}
+
+
+\section*{Work Experience}
+
+\begin{itemize}
+\item \textbf{Researcher}, CWI, Amsterdam, The Netherlands. \textbf{December 20012--present}.
+\item \textbf{Software Developer}, ITOrbit, Tehran, Iran. \textbf{March 2009--July 2010}.
+\end{itemize}
+
+\section*{Technical Skills} 
+
+\begin{itemize}
+\item Expert in Java, proficient in Scala, and familiar with C, Swift, Ruby, and Python
+\end{itemize}
+
+
+\nocite{*}
+\bibliographystyle{unsrt}
+
+\renewcommand\refname{Publications}
+\bibliography{publications.bib}
+
+
+\section*{Talks}
+
+\begin{itemize}
+\item A Practical Data-Dependent Parsing Framework. At PEPM'16 (paper presentation),
+19 January 2016, St. Petersburg, FL, USA.
+
+\item Meerkat Parsers: A general parser combinator library for real programming languages.
+At ScalaDays 2015 Amsterdam (with Anastasia Izmaylova), 9 June 2015, Amsterdam,
+The Netherlands.
+
+\item Faster, Practical GLL Parsing. At CC'15 (paper presentation), 18 April 2015,
+London, UK.
+
+\item Safe Specification of Operator Precedence Rules. At SLE'13 (paper presentation),
+26 October 2013, Indianapolis, IN, USA.
+
+\item Iguana: an Object-Oriented Lazy Scannerless Parser. At Parsing@SLE'13. 
+26 October 2013, Indianapolis, IN, USA.
+
+\end{itemize}
+
+\section*{Languages}
+
+\begin{minipage}{.5\textwidth}
+\begin{itemize}
+\item Persian: native language
+\item English: Fluent
+\end{itemize}
+\end{minipage}
+\begin{minipage}{.5\textwidth}
+\begin{itemize}
+\item Dutch: Intermediate (level B2)
+\item German: Intermediate (level B2)
+\end{itemize}
+\end{minipage}
+
+\bigskip
+
+\begin{center}
+  \begin{footnotesize}
+    Last updated: \today
+  \end{footnotesize}
+\end{center}
+
+\end{document}
