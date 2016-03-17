@@ -34,7 +34,8 @@
  abstract = {Parser combinators are a popular approach to parsing where context-free grammars are represented as executable code. However, conventional parser combinators do not support left recursion, and can have worst-case exponential runtime. These limitations hinder the expressivity and performance predictability of parser combinators when constructing parsers for programming languages. 
  In this paper we present general parser combinators that support all context-free grammars and construct a parse forest in cubic time and space in the worst case, while behaving nearly linearly on grammars of real programming languages. Our general parser combinators are based on earlier work on memoized Continuation-Passing Style (CPS) recognizers. First, we extend this work to achieve recognition in cubic time. Second, we extend the resulting cubic CPS recognizers to parsers that construct a binarized Shared Packed Parse Forest (SPPF). 
  Our general parser combinators bring the best of both worlds: the flexibility and extensibility of conventional parser combinators and the expressivity and performance guarantees of general parsing algorithms. We used the approach presented in this paper as the basis for Meerkat, a general parser combinator library for Scala.},
- preprint={https://cdn.rawgit.com/meerkat-parser/papers/master/pepm16.pdf}
+ preprint={https://cdn.rawgit.com/meerkat-parser/papers/master/pepm16.pdf},
+ slides={https://speakerdeck.com/afroozeh/practical-general-parser-combinators}
 } 
 
 @inproceedings{PEPM2016-1,

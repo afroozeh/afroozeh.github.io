@@ -5,8 +5,11 @@ layout: base
 <h2 class="page-title">Talks</h2>
 
 <ul>
-	<li>A Practical Data-Dependent Parsing Framework. At PEPM'16 (paper presentation),
+	<li>General, Practical Parser Combinators. At PEPM'16 (paper presentation),
 	19 January 2016, St. Petersburg, FL, USA.
+	<ul class="talks-links">
+		<li><a href="https://speakerdeck.com/afroozeh/practical-general-parser-combinators" target="_blank">Slides</a></li>
+	</ul>
 	</li>
 	<li> Meerkat Parsers: A general parser combinator library for real programming languages.
 		At ScalaDays 2015, Amsterdam, June 9th 2015 (with Anastasia Izmaylova).
